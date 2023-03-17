@@ -61,8 +61,7 @@ class _MyAppState extends State<MyApp> {
                     fontWeight: FontWeight.w800),
               ),
             ),
-            FlatButton(
-              color: Colors.black,
+            TextButton(
               onPressed: () {
                 initPlatformState();
               },
